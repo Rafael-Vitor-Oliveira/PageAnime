@@ -74,7 +74,7 @@ span:hover{
     color: #ffffff;
 }
 .buttonGojo{
-    background-image: url(../assets/icons/iconGojo.png);
+    background-image: url(./assets/icons/iconGojo.png);
     border-radius: 50%;
     height: 7rem;
     width: 7rem;
@@ -87,7 +87,7 @@ span:hover{
     transform: scale(1.3);
 }
 .buttonYuji{
-    background-image: url(../assets/icons/iconYuji.png);
+    background-image: url(./assets/icons/iconYuji.png);
     border-radius: 50%;
     height: 7rem;
     width: 7rem;
@@ -101,7 +101,7 @@ span:hover{
     transition: 0.2s;
 }
 .buttonMegumi{
-    background-image: url(../assets/icons/iconMegumi.png);
+    background-image: url(./assets/icons/iconMegumi.png);
     border-radius: 50%;
     height: 7rem;
     width: 7rem;
@@ -115,7 +115,7 @@ span:hover{
     transition: 0.2s;
 }
 .buttonNanami{
-    background-image: url(../assets/icons/iconNanami.png);
+    background-image: url(./assets/icons/iconNanami.png);
     border-radius: 50%;
     height: 7rem;
     width: 7rem;
@@ -129,7 +129,7 @@ span:hover{
     transition: 0.2s;
 }
 .buttonNobara{
-    background-image: url(../assets/icons/iconNobara.png);
+    background-image: url(./assets/icons/iconNobara.png);
     border-radius: 50%;
     height: 7rem;
     width: 7rem;
@@ -143,32 +143,32 @@ span:hover{
     transition: 0.2s;
 }
 .yuji{
-     background: url(../assets/background/yujiItadori.png);
+     background: url(./assets/background/yujiItadori.png);
      background-size:cover;
      background-color: #000000;
      background-repeat: no-repeat;
      background-position: center;
 }
 .satoru{
-    background: url(../assets/background/satoruGojo.png);
+    background: url(./assets/background/satoruGojo.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #000000;
 }
 .nobara{
-    background: url(../assets/background/nobaraKugisaki.png);
+    background: url(./assets/background/nobaraKugisaki.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #000000;
 }
 .megumi{
-    background: url(../assets/background/megumiFushiguro.png);
+    background: url(./assets/background/megumiFushiguro.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #000000;
 }
 .nanami{
-    background: url(../assets/background/kentoNanami.png);
+    background: url(./assets/background/kentoNanami.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #000000;
@@ -210,31 +210,31 @@ nav{
     margin: 3rem 0;
 }
 .yuji{
-    background: url(../assets/background/responsiveBackground/yujiItadori.jpg);
+    background: url(./assets/background/responsiveBackground/yujiItadori.jpg);
     background-size:cover;
     background-color: #000000;
     background-repeat: no-repeat;
 }
 .satoru{
-    background: url(../assets/background/responsiveBackground/satoruGojo.png);
+    background: url(./assets/background/responsiveBackground/satoruGojo.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #000000;
 }
 .nobara{
-    background: url(../assets/background/responsiveBackground/nobaraKugisaki.png);
+    background: url(./assets/background/responsiveBackground/nobaraKugisaki.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #000000;
 }
 .nanami{
-    background: url(../assets/background/responsiveBackground/kentoNanami.png);
+    background: url(./assets/background/responsiveBackground/kentoNanami.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #000000;
 }
 .megumi{
-    background: url(../assets/background/responsiveBackground/megumiFushiguro.png);
+    background: url(./assets/background/responsiveBackground/megumiFushiguro.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #000000;
