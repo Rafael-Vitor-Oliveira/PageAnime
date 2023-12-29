@@ -28,10 +28,11 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    margin: 3rem 0;
+    margin-top: 3rem;
 }
 button{
     box-shadow: 0.1rem 0px 0.2rem #DCDCDC;
+    margin-bottom: 3rem;
 }
 section{
     background-color: rgba(0, 0, 0, 0.70);
