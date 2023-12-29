@@ -1,3 +1,4 @@
+const main = document.querySelector('#container');
 const characterDescription = document.querySelector('.characterDescription');
 const titleCharacter = document.querySelector('.titleCharacter');
 const initialDescriptionBody = document.getElementsByClassName('satoru');
@@ -10,11 +11,11 @@ const addHeader = ()=> {
     <img src="./assets/logo/logoJujutsuJapan.png" alt="logoJujutsuJapan" class="logoJujutsuJapan">
     `;
     const findSection = document.querySelector('section');
-    document.body.insertBefore(createHeader, findSection);
+    main.insertBefore(createHeader, findSection);
 }
-addHeader()
+addHeader();
 const addClassBody = ()=> {
-    document.body.classList.add('satoru');
+    main.classList.add('satoru');
 }
 const initialDescription = () =>{
     addClassBody();
@@ -25,36 +26,36 @@ const initialDescription = () =>{
 initialDescription();
 function yuji(){
     console.log('oi');
-    document.body.removeAttribute('class');
-    document.body.classList.add('yuji');
+    main.removeAttribute('class');
+    main.classList.add('yuji');
     titleCharacter.innerHTML = 'Yuji Itadori';
     characterDescription.innerHTML = 
     'Aluno da escola Jujutsu de Tokyo, é o protagonisma de Jujutsu Kaisen e receptáculo de uma Maldição, considerada o &quotRei das Maldições&quot, Ryomen Sukuna. Ele é famoso por ter uma força sobre-humana, antes mesmo de se tornar o receptáculo de Sukuna, que fez após ter impulsivamente engolido um de seus dedos, que continha a energia amaldiçoada da Maldição, a fim de salvar a vida de Megumi. Sua maior arma são seus punhos, que reforça com energia amaldiçoada, para dar grandes impactos em seus oponentes.';
 }
 function gojo(){
-    document.body.removeAttribute('class');
-    document.body.classList.add('satoru');
+    main.removeAttribute('class');
+    main.classList.add('satoru');
     titleCharacter.innerHTML = 'Satoru Gojo';
     characterDescription.innerHTML = 
     'Professor dos alunos da escola Jujutsu de Tokyo, Também conhecido como <span>&quotO Feiticeiro mais forte do mundo&quot</span>, é membro do Clã dos Seis Olhos, de onde herdou técnicas que consedem a ele poderes extraordinários, que são eles os <span>&quotSeis olhos&quot</span>, lhe dá uma visão e conciência excepcionais, além de um incrível poder de processamento mental. E o <span>&quotInfinito&quot</span>, conseguindo manipular o espaço em nível atômico para produzir &quotimpossibilidades&quot para vários efeitos sob seu comando. Junto com os <span>&quotSeis olhos&quot</span>, Satoru Gojo pode utilizar esta técnica em seu potencial máximo.';
 }
 function nobara(){
-    document.body.removeAttribute('class');
-    document.body.classList.add('nobara');
+    main.removeAttribute('class');
+    main.classList.add('nobara');
     titleCharacter.innerHTML = 'Nobara Kugisaki';
     characterDescription.innerHTML = 
     'Aluna da escola Jujutsu de Tokyo, ela é uma mulher impetuosa e autoconfiante que acredita fortemente em ser &quotverdadeira&quot consigo mesma, Nobara já mostrou ser fisicamente mais forte do que aparenta, sendo capaz de dar muito trabalho aos Feiticeiros Jujutsu de seu nível, nos treinamentos em que tiveram. Sua maior arma é seu martelo, junto a pregos que reforça com energia amaldiçoada para criar seus feitiços.';
 }
 function megumi(){
-    document.body.removeAttribute('class');
-    document.body.classList.add('megumi');
+    main.removeAttribute('class');
+    main.classList.add('megumi');
     titleCharacter.innerHTML = 'Megumi Fushiguro';
     characterDescription.innerHTML =
     'Aluno da escola Jujutsu de Tokyo, é dos descendentes da Família Zehin, que tem forte influência no Mundo Jujutsu, embora ele não se importe muito com isso. Megumi deseja ajudar a proteger as pessoas que ele considera boas ou gentis, embora aparente ser estóico e calculista, ele acredita que o mundo é injusto e que um Feiticeiro é uma ferramenta para garantir que pessoas boas tenham mais chances de viver. Ele é dono de uma técnica original de sua família, a <span>&quotTécnica das Dez Sombras&quot</span> que lhe permite criar dez <span>Shikigamis</span>, cada um com atributos e habilidades diferentes.';
 }
 function nanami(){
-    document.body.removeAttribute('class');
-    document.body.classList.add('nanami');
+    main.removeAttribute('class');
+    main.classList.add('nanami');
     titleCharacter.innerHTML = 'Kento Nanami';
     characterDescription.innerHTML =
     'É um ex-aluno da Escola Jujutsu, que a deixou após ter se formado, afim de ganhar algum dinheiro, para viver uma vida tranquila. Nanami é um homem sábio e reservado, parece ser o tipo de pessoa que leva muito a sério seu trabalho, sendo um ótimo professor para Yuji, e uma inspiração para o mesmo. Seu poder consiste em criar um ponto fraco em seu oponente, que ao acertar, desfere um dano crítico, além de possuir um pacto de restrição, consigo mesmo, baseado em tempo, ativado após passar de seu tempo de &quottrabalho&quot habitual, lhe concedendo aumento de energia amaldiçoada e força.';

@@ -1,15 +1,12 @@
 *{
     margin: 0;
-    max-height: 100vh;
-    box-sizing: border-box;
+    padding: 0;
+}
+html,body{
+    min-height: 100%;
 }
 :root{
     font-size: 62.5%;
-}
-body{
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-color: #000000;
 }
 header{
     display: flex;
@@ -22,17 +19,6 @@ header{
 .logoJujutsuJapan{
     width: 17rem;
     margin-left: 1rem;
-}
-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    margin-top: 3rem;
-}
-button{
-    box-shadow: 0.1rem 0px 0.2rem #DCDCDC;
-    margin-bottom: 3rem;
 }
 section{
     background-color: rgba(0, 0, 0, 0.70);
@@ -47,6 +33,7 @@ section:hover{
     transform: scale(1.1);
 }
 .titleCharacter{
+    margin: 1rem;
     text-shadow: 
     0.1rem 0.1rem 0 #000000,
     -0.1rem -0.1rem 0.2rem #1E90FF;
@@ -73,6 +60,22 @@ span:hover{
     -0.1rem -0.1rem 0.2rem #FF0000;
     transition: 0.7s;
     color: #ffffff;
+}
+footer{
+    margin-top: 5rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+}
+nav{
+    display: flex;
+    gap: 1.5rem;
+}
+button{
+    box-shadow: 0.1rem 0px 0.2rem #DCDCDC;
+    margin-bottom: 3rem;
 }
 .buttonGojo{
     background-image: url(./assets/icons/iconGojo.png);
