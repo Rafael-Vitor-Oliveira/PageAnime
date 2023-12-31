@@ -58,5 +58,5 @@ function nanami(){
     main.classList.add('nanami');
     titleCharacter.innerHTML = 'Kento Nanami';
     characterDescription.innerHTML =
-    'É um ex-aluno da Escola Jujutsu, que a deixou após ter se formado, afim de ganhar algum dinheiro, para viver uma vida tranquila. Nanami é um homem sábio e reservado, parece ser o tipo de pessoa que leva muito a sério seu trabalho, sendo um ótimo professor para Yuji, e uma inspiração para o mesmo. Seu poder consiste em criar um ponto fraco em seu oponente, que ao acertar, desfere um dano crítico, além de possuir um pacto de restrição, consigo mesmo, baseado em tempo, ativado após passar de seu tempo de &quottrabalho&quot habitual, lhe concedendo aumento de energia amaldiçoada e força.';
+    'É um ex-aluno da Escola Jujutsu, que a deixou após ter se formado, afim de ganhar algum dinheiro, para viver uma vida tranquila e normal. Nanami é um homem sábio e reservado, parece ser o tipo de pessoa que leva muito a sério seu trabalho, sendo uma inspiração para Yuji. Seu poder cria um ponto fraco em seu oponente, que ao acertar, desfere um dano crítico, além de possuir um pacto de restrição, consigo mesmo, baseado em tempo, ativado após passar de seu tempo de &quottrabalho&quot habitual, concedendo aumento de energia e força.';
 }
