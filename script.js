@@ -51,7 +51,7 @@ function megumi(){
     main.classList.add('megumi');
     titleCharacter.innerHTML = 'Megumi Fushiguro';
     characterDescription.innerHTML =
-    'Aluno da escola Jujutsu de Tokyo, é dos descendentes da Família Zehin, que tem forte influência no Mundo Jujutsu, embora ele não se importe muito com isso. Megumi deseja ajudar a proteger as pessoas que ele considera boas ou gentis, embora aparente ser estóico e calculista, ele acredita que o mundo é injusto e que um Feiticeiro é uma ferramenta para garantir que pessoas boas tenham mais chances de viver. Ele é dono de uma técnica original de sua família, a <span>&quotTécnica das Dez Sombras&quot</span> que lhe permite criar dez <span>Shikigamis</span>, cada um com atributos e habilidades diferentes.';
+    'Aluno da escola Jujutsu de Tokyo, é dos descendentes da Família Zehin, que tem forte influência no Mundo Jujutsu. Megumi deseja ajudar a proteger as pessoas que ele considera boas ou gentis, embora aparente ser estóico e calculista, ele acredita que o mundo é injusto e que um Feiticeiro é uma ferramenta para garantir que pessoas boas tenham mais chances de viver. Ele é dono de uma técnica original de sua família, a <span>&quotTécnica das Dez Sombras&quot</span> que lhe permite criar dez <span>Shikigamis</span>, cada um com atributos e habilidades diferentes.';
 }
 function nanami(){
     main.removeAttribute('class');
